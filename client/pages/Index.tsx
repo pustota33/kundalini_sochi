@@ -360,7 +360,7 @@ export default function Index() {
         data-prefill="Индивидуальная сессия"
         variant="cta"
         size="xl"
-        className="mt-2 w-full px-4 sm:px-6 md:w-auto"
+        className="mt-2 w-64 mx-auto"
       >
         Забронировать индивидуальную сессию
       </Button>
