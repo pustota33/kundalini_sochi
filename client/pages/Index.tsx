@@ -217,7 +217,7 @@ export default function Index() {
               <figure className="rounded-xl bg-card p-4 shadow-sm ring-1 ring-border">
                 <div className="flex items-center gap-3">
                   <img
-                    src="https://images.unsplash.com/photo-1527980965255-d3b416303d12?q=80&w=128&auto=format&fit=crop"
+                    src="https://images.unsplash.com/photo-1548142813-c348350df52b?q=80&w=128&auto=format&fit=crop"
                     alt="Сергей"
                     className="h-10 w-10 rounded-full object-cover"
                   />
@@ -230,7 +230,8 @@ export default function Index() {
               <figure className="rounded-xl bg-card p-4 shadow-sm ring-1 ring-border">
                 <div className="flex items-center gap-3">
                   <img
-                    src="https://images.unsplash.com/photo-1548142813-c348350df52b?q=80&w=128&auto=format&fit=crop"
+                  
+                    src="https://images.unsplash.com/photo-1527980965255-d3b416303d12?q=80&w=128&auto=format&fit=crop"
                     alt="Мария"
                     className="h-10 w-10 rounded-full object-cover"
                   />
