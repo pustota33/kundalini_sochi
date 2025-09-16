@@ -200,9 +200,11 @@ export default function Index() {
 
           {/* Right column: video + testimonials */}
 <div className="flex flex-col items-stretch gap-6">
-  {/* full-bleed video on mobile */}
-  <div className="-mx-4 md:mx-0">
-    <div className="relative aspect-[9/16] w-[100vw] md:w-full bg-black ring-1 ring-border rounded-none md:rounded-2xl md:shadow-lg">
+  {/* мобайл: почти full-bleed с полями; десктоп: аккуратная ширина в колонке */}
+  <div className="relative md:rounded-2xl md:shadow-lg">
+    <div className="relative aspect-[9/16] w-[92vw] max-w-[480px] mx-auto 
+                    sm:w-full sm:max-w-md md:max-w-sm 
+                    overflow-hidden rounded-xl bg-black ring-1 ring-border">
       <iframe
         className="absolute inset-0 h-full w-full"
         src="https://rutube.ru/play/embed/f25f40e73eebc884f656dd81e5644a62"
