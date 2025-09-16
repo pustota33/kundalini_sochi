@@ -199,18 +199,22 @@ export default function Index() {
           </div>
 
           {/* Right column: video + testimonials */}
-          <div className="relative overflow-hidden rounded-2xl shadow-lg">
-  <div className="relative aspect-[9/16] w-full overflow-hidden rounded-xl bg-black ring-1 ring-border">
-    <iframe
-      className="absolute inset-0 h-full w-full"
-      src="https://rutube.ru/play/embed/f25f40e73eebc884f656dd81e5644a62"
-      title="Rutube Shorts"
-      frameBorder="0"
-      allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
-      allowFullScreen
-    ></iframe>
+<div className="flex flex-col items-stretch gap-6">
+  {/* full-bleed на мобиле: убираем боковые поля секции */}
+  <div className="relative -mx-4 md:mx-0 md:overflow-hidden md:rounded-2xl md:shadow-lg">
+    <div className="relative aspect-[9/16] w-[100vw] md:w-full bg-black ring-1 ring-border rounded-none md:rounded-xl">
+      <iframe
+        className="absolute inset-0 h-full w-full"
+        src="https://rutube.ru/play/embed/f25f40e73eebc884f656dd81e5644a62"
+        title="Rutube Shorts"
+        frameBorder="0"
+        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
+        allowFullScreen
+      />
+    </div>
   </div>
 </div>
+
 
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 items-start gap-4">
