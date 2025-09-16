@@ -376,7 +376,7 @@ export default function Index() {
 
   {/* Правое фото */}
   <img
-    src="https://cdn.builder.io/api/v1/image/assets%2Fb41cb3bc76744413bb1feb61b473a170%2F6a510f1e8bee4510a3b8ddce8c3b1df2?format=webp&width=800"
+    src="/images/Denis_Oneness.webp"
     alt="Денис"
     className="w-full aspect-[4/5] rounded-2xl object-cover shadow-xl ring-1 ring-border md:absolute md:bottom-2 md:right-2 md:w-64 md:shadow-2xl md:ring-2 md:ring-background md:z-10"
   />
