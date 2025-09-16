@@ -218,7 +218,7 @@ export default function Index() {
                 <div className="flex items-center gap-3">
                   <img
                     src="https://images.unsplash.com/photo-1527980965255-d3b416303d12?q=80&w=128&auto=format&fit=crop"
-                    alt="Мария"
+                    alt="Сергей"
                     className="h-10 w-10 rounded-full object-cover"
                   />
                   <figcaption className="text-sm font-medium">Мария, 32</figcaption>
@@ -231,7 +231,7 @@ export default function Index() {
                 <div className="flex items-center gap-3">
                   <img
                     src="https://images.unsplash.com/photo-1548142813-c348350df52b?q=80&w=128&auto=format&fit=crop"
-                    alt="Сергей"
+                    alt="Мария"
                     className="h-10 w-10 rounded-full object-cover"
                   />
                   <figcaption className="text-sm font-medium">Сергей, 28</figcaption>
