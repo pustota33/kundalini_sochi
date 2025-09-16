@@ -251,7 +251,7 @@ export default function Index() {
                   <figcaption className="text-sm font-medium">Алина, 41</figcaption>
                 </div>
                 <blockquote className="mt-2 text-sm leading-relaxed text-muted-foreground">
-                  «Удивительно, как всего за 3 часа можно так глубоко трансформироваться. Это лучший подарок себе!»
+                  «Удивительно, как всего за 2 часа можно так глубоко трансформироваться. Это лучший подарок себе!»
                 </blockquote>
               </figure>
             </div>
@@ -294,7 +294,7 @@ export default function Index() {
             </li>
             <li className="flex items-center gap-3">
               <MapPin className="h-5 w-5 text-primary" />
-              <span>Сочи, Yoga Space (адрес)</span>
+              <span>Сочи</span>
             </li>
             <li className="flex items-center gap-3">
               <Banknote className="h-5 w-5 text-primary" />
