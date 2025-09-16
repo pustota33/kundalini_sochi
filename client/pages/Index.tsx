@@ -375,7 +375,7 @@ export default function Index() {
       <img
         src="https://cdn.builder.io/api/v1/image/assets%2Fb41cb3bc76744413bb1feb61b473a170%2F6a510f1e8bee4510a3b8ddce8c3b1df2?format=webp&width=800"
         alt="Денис"
-        className="w-full aspect-[4/5] rounded-2xl object-contain bg-black shadow-xl ring-1 ring-border rotate-90"
+        className="w-full aspect-[4/5] rounded-2xl object-cover shadow-xl ring-1 ring-border rotate-90"
       />
       <div className="hidden md:block absolute left-4 top-4 rounded-full bg-black/60 px-3 py-1 text-xs font-medium text-white backdrop-blur">
         💎 Только вы и 2 мастера
