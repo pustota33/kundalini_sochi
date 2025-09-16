@@ -341,27 +341,48 @@ export default function Index() {
       </section>
 
       {/* Individual session */}
-      <section className="container mx-auto px-4 py-10">
-        <div className="grid gap-8 md:grid-cols-2 rounded-3xl bg-secondary/60 p-4 sm:p-6 ring-1 ring-border">
-          <div className="flex flex-col gap-4">
-            <h2 className="text-2xl font-extrabold">🌟 Индивидуальная сессия активации кундалини</h2>
-            <p className="text-muted-foreground">Глубокое, персональное погружение в энергию под полным сопровождением двух фасилитаторов.</p>
-            <ul className="space-y-2 text-sm">
-              <li>🔥 Эта сессия — для тех, кто готов к мощному личному прорыву и хочет уделить всё внимание себе.</li>
-              <li>💎 2 мастера работают только с вами</li>
-              <li>✨ Индивидуальный подход и настройка</li>
-              <li>🌊 Углублённая практика и интеграция</li>
-              <li>💰 Цена: 25 000 ₽ <span className="text-muted-foreground">(запись ограничена)</span></li>
-            </ul>
-            <Button data-reserve-trigger data-prefill="Индивидуальная сессия" variant="cta" size="xl" className="mt-2 w-full md:w-auto px-8">Забронировать индивидуальную сессию</Button>
-          </div>
-          <div className="mx-auto w-full max-w-md md:relative grid grid-cols-2 gap-3 items-start">
-            <img src="https://cdn.builder.io/api/v1/image/assets%2Fb41cb3bc76744413bb1feb61b473a170%2F42b4a8cf62af44798b5845e0472bf183?format=webp&width=800" alt="Ульяна" className="w-full aspect-[4/5] rounded-2xl object-cover shadow-xl ring-1 ring-border" />
-            <img src="https://cdn.builder.io/api/v1/image/assets%2Fb41cb3bc76744413bb1feb61b473a170%2F6a510f1e8bee4510a3b8ddce8c3b1df2?format=webp&width=800" alt="Денис" className="w-full aspect-[4/5] rounded-2xl object-cover shadow-xl ring-1 ring-border md:absolute md:bottom-2 md:right-2 md:w-64 md:shadow-2xl md:ring-2 md:ring-background md:rotate-90" />
-            <div className="hidden md:block absolute left-4 top-4 rounded-full bg-black/60 px-3 py-1 text-xs font-medium text-white backdrop-blur">💎 Только вы и 2 мастера</div>
-          </div>
-        </div>
-      </section>
+<section className="container mx-auto px-4 py-10">
+  <div className="grid gap-8 md:grid-cols-2 rounded-3xl bg-secondary/60 p-4 sm:p-6 ring-1 ring-border">
+    <div className="flex flex-col gap-4">
+      <h2 className="text-2xl font-extrabold">🌟 Индивидуальная сессия активации кундалини</h2>
+      <p className="text-muted-foreground">
+        Глубокое, персональное погружение в энергию под полным сопровождением двух фасилитаторов.
+      </p>
+      <ul className="space-y-2 text-sm">
+        <li>🔥 Эта сессия — для тех, кто готов к мощному личному прорыву и хочет уделить всё внимание себе.</li>
+        <li>💎 2 мастера работают только с вами</li>
+        <li>✨ Индивидуальный подход и настройка</li>
+        <li>🌊 Углублённая практика и интеграция</li>
+        <li>💰 Цена: 25 000 ₽ <span className="text-muted-foreground">(запись ограничена)</span></li>
+      </ul>
+      <Button
+        data-reserve-trigger
+        data-prefill="Индивидуальная сессия"
+        variant="cta"
+        size="xl"
+        className="mt-2 w-full px-4 sm:px-6 md:w-auto"
+      >
+        Забронировать индивидуальную сессию
+      </Button>
+    </div>
+
+    <div className="mx-auto w-full max-w-md md:relative grid grid-cols-2 gap-3 items-start">
+      <img
+        src="https://cdn.builder.io/api/v1/image/assets%2Fb41cb3bc76744413bb1feb61b473a170%2F42b4a8cf62af44798b5845e0472bf183?format=webp&width=800"
+        alt="Ульяна"
+        className="w-full aspect-[4/5] rounded-2xl object-cover shadow-xl ring-1 ring-border"
+      />
+      <img
+        src="https://cdn.builder.io/api/v1/image/assets%2Fb41cb3bc76744413bb1feb61b473a170%2F6a510f1e8bee4510a3b8ddce8c3b1df2?format=webp&width=800"
+        alt="Денис"
+        className="w-full aspect-[4/5] rounded-2xl object-cover shadow-xl ring-1 ring-border md:absolute md:bottom-2 md:right-2 md:w-64 md:shadow-2xl md:ring-2 md:ring-background md:rotate-90"
+      />
+      <div className="hidden md:block absolute left-4 top-4 rounded-full bg-black/60 px-3 py-1 text-xs font-medium text-white backdrop-blur">
+        💎 Только вы и 2 мастера
+      </div>
+    </div>
+  </div>
+</section>
 
       {/* Final CTA */}
       <section className="container mx-auto px-4 py-10">
