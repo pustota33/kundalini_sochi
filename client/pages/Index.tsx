@@ -367,20 +367,26 @@ export default function Index() {
     </div>
 
     <div className="mx-auto w-full max-w-md md:relative grid grid-cols-2 gap-3 items-start">
-      <img
-        src="https://cdn.builder.io/api/v1/image/assets%2Fb41cb3bc76744413bb1feb61b473a170%2F42b4a8cf62af44798b5845e0472bf183?format=webp&width=800"
-        alt="Ульяна"
-        className="w-full aspect-[4/5] rounded-2xl object-cover shadow-xl ring-1 ring-border"
-      />
-      <img
-        src="https://cdn.builder.io/api/v1/image/assets%2Fb41cb3bc76744413bb1feb61b473a170%2F6a510f1e8bee4510a3b8ddce8c3b1df2?format=webp&width=800"
-        alt="Денис"
-        className="w-full aspect-[4/5] rounded-2xl object-cover shadow-xl ring-1 ring-border rotate-90"
-      />
-      <div className="hidden md:block absolute left-4 top-4 rounded-full bg-black/60 px-3 py-1 text-xs font-medium text-white backdrop-blur">
-        💎 Только вы и 2 мастера
-      </div>
-    </div>
+  {/* Левое фото */}
+  <img
+    src="https://cdn.builder.io/api/v1/image/assets%2Fb41cb3bc76744413bb1feb61b473a170%2F42b4a8cf62af44798b5845e0472bf183?format=webp&width=800"
+    alt="Ульяна"
+    className="w-full aspect-[4/5] rounded-2xl object-cover shadow-xl ring-1 ring-border md:relative md:z-20"
+  />
+
+  {/* Правое фото */}
+  <img
+    src="https://cdn.builder.io/api/v1/image/assets%2Fb41cb3bc76744413bb1feb61b473a170%2F6a510f1e8bee4510a3b8ddce8c3b1df2?format=webp&width=800"
+    alt="Денис"
+    className="w-full aspect-[4/5] rounded-2xl object-cover shadow-xl ring-1 ring-border md:absolute md:bottom-2 md:right-2 md:w-64 md:shadow-2xl md:ring-2 md:ring-background md:z-10"
+  />
+
+  {/* бейдж */}
+  <div className="hidden md:block absolute left-4 top-4 rounded-full bg-black/60 px-3 py-1 text-xs font-medium text-white backdrop-blur">
+    💎 Только вы и 2 мастера
+  </div>
+</div>
+
   </div>
 </section>
 
